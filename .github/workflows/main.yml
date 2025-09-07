@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: gcc soul.c -o soul1 -lpthread
-      - run: sudo ./soul1 20.204.190.242 10180 300 900
+      - run: sudo ./soul1 20.235.93.18 29614 160 900
